@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestProject.MainPage"
+
+             xmlns:viewmodel="clr-namespace:TestProject.ViewModel"
+             x:DataType="viewmodel:MainViewModel">
+
+    <VerticalStackLayout
+        Padding="0">
+        <Grid 
+            ColumnDefinitions="*,*" RowDefinitions="Auto,Auto"
+            Margin="25">
+            <Label
+                Text="Hair Saloon"
+                FontSize="30"
+                Margin="0,0,0,50"
+                Grid.Row="0"
+                Grid.ColumnSpan="2"/>
+            <Button
+                WidthRequest="150"
+                HeightRequest="50"
+                HorizontalOptions="End"
+                BackgroundColor="Transparent"
+                TextColor="Black"
+                Grid.Row="1"
+                Grid.Column="0"
+                Command="{Binding ToggleFieldsCommand}"
+                CommandParameter="LogIn"
+                Text="LogIn"/>
+            <Button
+                WidthRequest="150"
+                HeightRequest="50"
+                HorizontalOptions="Start"
+                BackgroundColor="Transparent"
+                TextColor="Black"
+                Grid.Row="1"
+                Grid.Column="1"
+                Command="{Binding ToggleFieldsCommand}"
+                CommandParameter="Register"
+                Text="Register"/>
+        </Grid>
+        <Grid x:Name="LogInGrid" ColumnDefinitions="150,*" RowDefinitions="50,50">
+            <Label
+                Grid.Row="0"
+                Text="UserName"
+                VerticalOptions="Center"
+                x:Name="usernameLabel"/>
+            <Entry
+                Grid.Row="0" Grid.Column="1"
+                Placeholder="458871296L"
+                Text="{Binding Name}"/>
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                VerticalOptions="Center"
+                Text="Password"
+                x:Name="passwordLabel"/>
+            <Entry
+                IsPassword="True"
+                Grid.Row="1"
+                Grid.Column="1"
+                Text="{Binding Password}"/>
+            
+        </Grid>
+        <Grid x:Name="RegisterForm" ColumnDefinitions="150,*" RowDefinitions="50,50,50,50" IsVisible="{Binding RegisterVisible}">
+            <Label
+                Grid.Row="0"
+                Text="Email"
+                x:Name="emailLabel"/>
+            <Entry
+                Grid.Row="0"
+                Grid.Column="1"
+                x:Name="emailEntry"
+                Placeholder="aaa@gmail.com"/>
+            <Label 
+                Grid.Row="1"
+                Grid.Column="0"
+                Text="Phone Number"
+                x:Name="phoneLabel"/>
+            <Entry
+                Grid.Row="1"
+                Grid.Column="1"
+                x:Name="phoneEntry"
+                Placeholder="654712335"/>
+            <Label 
+                Grid.Row="2"
+                Grid.Column="0"
+                Text="Postal Code"
+                x:Name="postalLabel"/>
+            <Entry
+                Grid.Column="1"
+                Grid.Row="2"
+                x:Name="postalEntry"
+                Placeholder="08123"/>
+        </Grid>
+        <Button
+            WidthRequest="200"
+            Margin="50"
+            Grid.Row="3"
+            Grid.ColumnSpan="2"
+            Text="LogIn"
+            x:Name="LogButton"
+            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainViewModel}}, Path=LogInCommand}"
+            CommandParameter="{Binding .}"/>
+    </VerticalStackLayout>
+</ContentPage>

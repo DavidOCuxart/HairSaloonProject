@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\David\\GitHub\\TestProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA02DA-E423-4D81-B4F6-51D327AE53E2}|TestProject\\HairApp.csproj|c:\\users\\david\\github\\testproject\\testproject\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA02DA-E423-4D81-B4F6-51D327AE53E2}|TestProject\\HairApp.csproj|solutionrelative:testproject\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA02DA-E423-4D81-B4F6-51D327AE53E2}|TestProject\\HairApp.csproj|c:\\users\\david\\github\\testproject\\testproject\\pages\\mainmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA02DA-E423-4D81-B4F6-51D327AE53E2}|TestProject\\HairApp.csproj|solutionrelative:testproject\\pages\\mainmenupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA02DA-E423-4D81-B4F6-51D327AE53E2}|TestProject\\HairApp.csproj|c:\\users\\david\\github\\testproject\\testproject\\pages\\mainmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEFA02DA-E423-4D81-B4F6-51D327AE53E2}|TestProject\\HairApp.csproj|solutionrelative:testproject\\pages\\mainmenupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA02DA-E423-4D81-B4F6-51D327AE53E2}|TestProject\\HairApp.csproj|c:\\users\\david\\github\\testproject\\testproject\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEFA02DA-E423-4D81-B4F6-51D327AE53E2}|TestProject\\HairApp.csproj|solutionrelative:testproject\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenuPage.xaml",
+              "DocumentMoniker": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\Pages\\MainMenuPage.xaml",
+              "RelativeDocumentMoniker": "TestProject\\Pages\\MainMenuPage.xaml",
+              "ToolTip": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\Pages\\MainMenuPage.xaml",
+              "RelativeToolTip": "TestProject\\Pages\\MainMenuPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-05T13:32:23.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainMenuPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\Pages\\MainMenuPage.xaml.cs",
+              "RelativeDocumentMoniker": "TestProject\\Pages\\MainMenuPage.xaml.cs",
+              "ToolTip": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\Pages\\MainMenuPage.xaml.cs",
+              "RelativeToolTip": "TestProject\\Pages\\MainMenuPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T13:32:22.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "TestProject\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "TestProject\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T13:30:22.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TestProject\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\MainPage.xaml",
+              "RelativeToolTip": "TestProject\\MainPage.xaml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGcAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-05T13:28:29.719Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
