@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HairApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b2db59aa813928893d43763a7a41772eb27ee5c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("HairApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HairApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

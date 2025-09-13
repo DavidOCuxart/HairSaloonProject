@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\HairApp.csproj": {}
+    "C:\\Users\\David\\Documents\\GitHub\\HairSaloonProject\\TestProject\\TestProject\\HairApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\HairApp.csproj": {
+    "C:\\Users\\David\\Documents\\GitHub\\HairSaloonProject\\TestProject\\TestProject\\HairApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\HairApp.csproj",
+        "projectUniqueName": "C:\\Users\\David\\Documents\\GitHub\\HairSaloonProject\\TestProject\\TestProject\\HairApp.csproj",
         "projectName": "HairApp",
-        "projectPath": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\HairApp.csproj",
+        "projectPath": "C:\\Users\\David\\Documents\\GitHub\\HairSaloonProject\\TestProject\\TestProject\\HairApp.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\GitHub\\TestProject\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\David\\Documents\\GitHub\\HairSaloonProject\\TestProject\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -113,6 +117,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -157,6 +165,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -200,6 +212,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",

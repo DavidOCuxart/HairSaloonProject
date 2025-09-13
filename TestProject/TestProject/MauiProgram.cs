@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using TestProject.Pages;
 using TestProject.ViewModel;
+using Microsoft.EntityFrameworkCore;
 
 namespace TestProject
 {
